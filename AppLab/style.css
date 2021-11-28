@@ -1,0 +1,365 @@
+/* Global Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul, a {
+    color: #242f51;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+p {
+    font-weight: 500;
+    color: #616368;
+    font-size: 0.9rem;
+}
+
+section {
+    border-bottom: solid 2px #f2f2f2;
+}
+
+/* Every single icon :) */
+.div--img {
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.div--img img {
+    width: 45px;
+    height: 45px;
+}
+
+/* /Global Styles */
+
+/* Header Styles (NavBar)*/
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 45px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 45px;
+    background-color: #fdfdfe;
+    padding: 20px 15%;
+    box-shadow: 0 0 10px #242f51;
+    z-index: 1;
+}
+
+a.logo {
+    cursor: pointer;
+    font-size: 1.7em;
+    font-weight: 800;
+    margin-right: auto;
+}
+
+.logo--ptOne {
+    color: #fcae61;
+}
+
+.logo--ptTwo {
+    color: #242f51;
+}
+
+ul.nav--links {
+    list-style: none;
+    margin: 0px 20px;
+}
+
+ul.nav--links li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+a {
+    text-decoration: none;
+    border-style: none;
+    border-radius: 50px;
+    padding: 3px;
+}
+
+.nav--links a:hover {
+    text-shadow: rgba(58, 23, 255, 0.3) 1px 0 15px;
+}
+
+button.try--for--free {
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 0;
+    padding: 15px 25px;
+    color: #fdfdfe;
+    background-color: rgb(58, 23, 255);
+    border-style: none;
+    border-radius: 50px;
+}
+
+button.try--for--free:hover {
+    background-color: rgb(33, 0, 221);
+    transition: 200ms linear;
+}
+
+/* /Header Styles (NavBar)*/
+
+/* Home Section Styles (.home)*/
+
+section.home {
+    background-color: #fdfdfe;
+    padding: 150px 0 100px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    color: #242f51;
+    /* Background Pic Repeat-X */
+    background-image: url("Pictures/01-Home/city-1.png");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-attachment: local;
+}
+
+.home--bestApp {
+    margin: 0 40px 0 0;
+    height: 320px;
+    width: 450px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.home--bestApp p.home--editors--choice {
+    background-color: rgb(226, 234, 237);
+    border-radius: 50px;
+    width: 17.5rem;
+    margin: 10px 0;
+    padding: 5px 0px 5px 0px;
+}
+
+.home--bestApp p.home--editors--choice span {
+    color: #fdfdfe;
+    background-color: #fcae61;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+a.try--for--free {
+    padding: 0;
+}
+
+a.demo--link {
+    color: rgb(58, 23, 255);
+}
+
+a.demo--link:hover {
+    color: rgb(33, 0, 221);
+    transition: 200ms linear;
+    text-shadow: rgba(58, 23, 255, 0.3) 1px 0 15px;
+}
+
+.home--bestApp--promo {
+    color: #616368;
+}
+
+.home--phoneDiv {
+    margin: 0 0 0 40px;
+    height: 610px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+.home--phone {
+    border-radius: 49px;
+    box-shadow: 0px 0px 16px 0px #BABABA;
+}
+
+/* /Home Section Styles (.home) */
+
+/* App Features Section Styles (.app--features) */
+
+/* Section globals */
+
+section.app--features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #242f51;
+    width: 100%;
+}
+
+/* /Section globals */
+
+/* Trusted By */
+
+.app--trusted--by {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 140px;
+    width: 1000px;
+}
+
+.app--trusted--by .trusted--img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.trusted--img span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trusted--img img {
+    width: 85%;
+    height: 85%;
+}
+
+/* /Trusted by */
+
+/* App features */
+
+.app--app--features {
+    /* background-color: lightblue; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.awesome--features h2 {
+    inline-size: 300px;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.app--app--features--text {
+    width: 550px;
+    height: 710px;
+    /* background-color: lightgray; */
+}
+
+.features .fast--performance .div--img {
+    background-color: #ffecef;
+}
+
+.fast--performance img {
+    /* color: #f55767; */
+    filter: invert(39%) sepia(44%) saturate(2373%) hue-rotate(328deg) brightness(112%) contrast(92%);
+}
+
+.features .prototyping .div--img {
+
+    background-color: #f4f4ff;
+}
+
+.prototyping img {
+    /* color: #3971ff; */
+    filter: invert(46%) sepia(54%) saturate(6117%) hue-rotate(213deg) brightness(101%) contrast(101%);
+}
+
+.features .vector--editing .div--img {
+    background-color: #e4ffee;
+}
+
+.vector--editing img {
+    /* color: #4c9e69; */
+    filter: invert(52%) sepia(23%) saturate(847%) hue-rotate(88deg) brightness(100%) contrast(87%);
+}
+
+.awesome--features {
+    margin: 20px 0 50px 0;
+}
+
+.awesome--features p {
+    inline-size: 350px;
+}
+
+.feature .text p {
+    inline-size: 240px;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.text h3 {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.fast--performance .text h3 {
+    color: #f55767;
+}
+
+.prototyping .text h3 {
+    color: #3971ff;
+}
+
+.vector--editing .text h3 {
+    color: #4c9e69;
+}
+
+.feature {
+    display: flex;
+    align-items: center
+}
+
+/* /App features */
+
+/* Smart jackpots */
+
+/* Section globals */
+
+.app--smart--jackpots {
+    background-color: lightcoral;
+    height: 710px;
+    /* width: 100%; */
+}
+
+/* /Section globals */
+
+.smart--jackpots--lv1 {
+    display: flex;
+    align-items: center;
+}
+
+.smart--jackpots--lv1 h2 {
+    font-size: 2rem;
+    inline-size: 350px;
+    padding-right: 30px;
+}
+
+.smart--jackpots--lv1 p {
+    inline-size: 380px;
+    font-weight: 500;
+    padding: 40px 20px;
+    border-left: solid 1.5px rgba(175, 175, 175, 0.4);
+}
+
+
+
+/* /Smart jackpots */
+
+/* /App Features Section Styles (.app--features) */
+
+/*  */
