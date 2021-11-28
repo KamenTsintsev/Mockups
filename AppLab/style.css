@@ -239,6 +239,8 @@ section.app--features {
 
 /* App features */
 
+/* lvl1 */
+
 .app--app--features {
     /* background-color: lightblue; */
     display: flex;
@@ -258,6 +260,8 @@ section.app--features {
     height: 710px;
     /* background-color: lightgray; */
 }
+
+/* lvl2 */
 
 .features .fast--performance .div--img {
     background-color: #ffecef;
@@ -304,7 +308,7 @@ section.app--features {
 
 .text h3 {
     margin-left: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .fast--performance .text h3 {
@@ -331,16 +335,16 @@ section.app--features {
 /* Section globals */
 
 .app--smart--jackpots {
-    background-color: lightcoral;
     height: 710px;
     /* width: 100%; */
 }
 
 /* /Section globals */
-
+/* lvl1 */
 .smart--jackpots--lv1 {
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .smart--jackpots--lv1 h2 {
@@ -356,7 +360,71 @@ section.app--features {
     border-left: solid 1.5px rgba(175, 175, 175, 0.4);
 }
 
+/* lvl2 */
 
+.smart--jackpots--lv2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.smart--jackpots--lv2 .div--img {
+    margin-bottom: 15px;
+}
+
+.smart--jackpots--lv2 .automatic--payouts .div--img {
+    background-color: #ffecef;
+}
+
+.automatic--payouts img {
+    /* color: #f55767; */
+    filter: invert(39%) sepia(44%) saturate(2373%) hue-rotate(328deg) brightness(112%) contrast(92%);
+}
+
+.smart--jackpots--lv2 .network--effect .div--img {
+    background-color: #f4f4ff;
+}
+
+.network--effect img {
+    /* color: #3971ff; */
+    filter: invert(46%) sepia(54%) saturate(6117%) hue-rotate(213deg) brightness(101%) contrast(101%);
+}
+
+.smart--jackpots--lv2 .bigger--rewards .div--img {
+    background-color: #e4ffee;
+}
+
+.bigger--rewards img {
+    /* color: #4c9e69; */
+    filter: invert(52%) sepia(23%) saturate(847%) hue-rotate(88deg) brightness(100%) contrast(87%);
+}
+
+.jackpots .text p {
+    inline-size: 240px;
+    margin: 0;
+}
+
+.jackpots .text h3 {
+    margin: 0 0 10px 0;
+}
+
+.automatic--payouts .text h3 {
+    color: #f55767;
+}
+
+.network--effect .text h3 {
+    color: #3971ff;
+}
+
+.bigger--rewards .text h3 {
+    color: #4c9e69;
+}
+
+.jackpots {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
 /* /Smart jackpots */
 
